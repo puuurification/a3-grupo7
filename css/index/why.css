@@ -1,0 +1,50 @@
+.why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.why__title{
+    font-family: "Rhodium Libre", "serif";
+    font-size: 4rem;
+    align-self: flex-start;
+    margin-left: 3rem;
+}
+
+.why__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 90%;
+    /* border: 1px solid red; */
+}
+
+.why_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.why__card__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why__card__text h5{
+    font-size: 2rem;
+}
+
+.why__card__text p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.why__card__img{
+    height: 5rem;
+}
