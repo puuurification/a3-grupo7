@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Limpando o CSS do Navegador */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+  
+/* Início da Estilização */
+:root{
+    font-size: 10px;
+
+    /* Cores Base */
+    --azul-escuro: #233C45;
+    --vermelho-claro: #ED1C24;
+    --preto: #000;
+
+    /* Gradientes da Home */
+    --gradiente1-home: linear-gradient(180deg, #FFFFFF 0%, #E2AAAD 100%);
+    --gradiente2-home: linear-gradient(180deg, #E2AAAD 0%, #DD999C 100%);
+    --gradiente3-home: linear-gradient(180deg, #DC999C 0%, #C1474D 100%);
+    --gradiente4-home: linear-gradient(180deg, #C1474C 0%, #B72C32 100%);
+    --gradiente5-home: linear-gradient(180deg, #B72C32 0%, #AE1118 100%);
+
+    /* Fontes */
+    --Roboto: 'Roboto', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+    --Titillium_Web:'Titillium Web', sans-serif;
+
+    /* --padding-section: 6.25vw; */
+
+    /* Inicial */
+    /* --padding-section: 5vw; */
+
+    /* Ideal - Figma */
+    --padding-section: 10vw;
+}
+
+@media (min-width: 1240) {
+    :root{
+        --padding-section: calc((100vw - 1135px) / 2);  
+    }
+}
+
+.padding__section{
+    padding-left: var(--padding-section);
+    padding-right: var(--padding-section);
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.underline{
+    background-color: #fff;
+    height: 1.5px;
+    margin-top: 2rem;
+}
+
+.top{
+    width: 95vw;
+}
+
+.bottom{
+    width: 40vw;
+}
