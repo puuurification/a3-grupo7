@@ -1,4 +1,4 @@
-.whatisthis{
+.usecase{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,33 +7,37 @@
     height: 90vh;
 }
 
-.whatisthis__title{
+
+.usecase__title{
     font-family: "Rhodium Libre", "serif";
     font-size: 5rem;
     margin-bottom: 2rem;
 }
 
-.whatisthis__container{
+.usecase__container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 70%;
-}
-
-.whatisthis__card{
-    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    height: 60%;
+    width: 80%;
     background-color: rgb(196, 196, 196,0.53);
-    border-radius: 15px;
-    width: 70%;
-    /* height: 12rem; */
-    /* padding: 1rem 0rem; */
+    /* padding: 5rem 2.5rem; */
     padding: 2.5rem;
+    border-radius: 15px;
+    font-family: "Rhodium Libre", "serif";
 }
 
-.whatisthis__card__text{
+.usecase__container__title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.usecase__container__list{
+    padding-left: 2rem;
+}
+
+.usecase__container__item{
     font-size: 2rem;
     /* width: 80%; */
     /* padding: 2rem; */
