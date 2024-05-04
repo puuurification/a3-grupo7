@@ -1,0 +1,33 @@
+@media (max-width: 999px) {
+    .home{
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        margin-top: -5.5rem;
+    }
+
+    .home__container{
+        /* border: 3px solid red; */
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .home__title{
+        font-family: "Rhodium Libre", "serif";
+        font-size: 5.5rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .home__subtitle{
+        font-size: 3.5rem;
+        text-align: center;
+        padding-right: 2rem;
+        /* border: 1px solid red; */
+    }
+}

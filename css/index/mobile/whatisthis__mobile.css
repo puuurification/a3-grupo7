@@ -1,0 +1,26 @@
+@media (max-width: 999px) {
+    .whatisthis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 100vw; */
+        /* height: 100vh; */
+    }
+
+    .whatisthis__title{
+        font-family: "Rhodium Libre", "serif";
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .whatisthis__card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        width: 100%;
+        padding: 2.5rem;
+        margin-bottom: 2rem;
+    }
+}

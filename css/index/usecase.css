@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     background-image: url("../../assets/background-whatisthis.png");
-    width: 100vw;
-    height: 90vh;
+    /* width: 100vw; */
+    /* height: 90vh; */
 }
 
 
@@ -26,6 +26,7 @@
     padding: 2.5rem;
     border-radius: 15px;
     font-family: "Rhodium Libre", "serif";
+    margin-bottom: 1rem;
 }
 
 .usecase__container__title{

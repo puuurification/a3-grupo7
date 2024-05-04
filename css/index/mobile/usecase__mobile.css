@@ -1,0 +1,43 @@
+@media (max-width: 999px) {
+    .usecase{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 100vw; */
+        /* height: 90vh; */
+    }
+
+    .usecase__title{
+        font-family: "Rhodium Libre", "serif";
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .usecase__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 90%;
+        /* width: 80%; */
+        background-color: rgb(196, 196, 196,0.53);
+        /* padding: 5rem 2.5rem; */
+        padding: 2.5rem;
+        border-radius: 15px;
+        font-family: "Rhodium Libre", "serif";
+        margin-bottom: 1rem;
+    }
+
+    .usecase__container__title{
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .usecase__container__item{
+        font-size: 1.5rem;
+        list-style: disc inside;
+        /* width: 80%; */
+        /* padding: 2rem; */
+    }
+}

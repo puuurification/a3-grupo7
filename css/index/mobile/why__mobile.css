@@ -1,0 +1,27 @@
+@media (max-width: 999px) {
+    .why{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why__title{
+        font-family: "Rhodium Libre", "serif";
+        font-size: 4rem;
+        align-self: center;
+        margin-left: 0rem;
+        /* border: 1px solid red; */
+    }
+
+    .why__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 90%;
+        margin-left: 3rem;
+        /* border: 1px solid red; */
+    }
+}

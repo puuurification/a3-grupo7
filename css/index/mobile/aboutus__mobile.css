@@ -1,0 +1,25 @@
+@media (max-width: 999px) {
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* height: 200vh; */
+        /* width: 100vw; */
+        margin-bottom: 2rem;
+    }
+
+    .aboutus__title{
+        text-align: center;
+    }
+
+    .aboutus__container{
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(8, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+    }
+}

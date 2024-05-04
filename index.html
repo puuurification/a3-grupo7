@@ -6,19 +6,35 @@
     <title>BlockChain</title>
     <link rel="icon" type="image/x-icon" href="./assets/logo-svg.svg">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index/index.css">
+
+    <link rel="stylesheet" href="./css/index/header.css">
+    <link rel="stylesheet" href="./css/index/mobile/header__mobile.css">
 
     <link rel="stylesheet" href="./css/index/home.css">
-    <link rel="stylesheet" href="./css/index/index.css">
-    <link rel="stylesheet" href="./css/index/header.css">
+    <link rel="stylesheet" href="./css/index/mobile/home__mobile.css">
+
     <link rel="stylesheet" href="./css/index/aboutus.css">
+    <link rel="stylesheet" href="./css/index/mobile/aboutus__mobile.css">
+
     <link rel="stylesheet" href="./css/index/whatisthis.css">
+    <link rel="stylesheet" href="./css/index/mobile/whatisthis__mobile.css">
+
     <link rel="stylesheet" href="./css/index/why.css">
+    <link rel="stylesheet" href="./css/index/mobile/why__mobile.css">
+
     <link rel="stylesheet" href="./css/index/usecase.css">
+    <link rel="stylesheet" href="./css/index/mobile/usecase__mobile.css">
 </head>
 <body>
-    <header class="header padding__section">
+    <header id="header" class="header padding__section">
         <img src="./assets/logo-svg.svg" alt="" srcset="" class="header__logo">
-        <nav class="header__nav">
+        <div id="mobile_menu" class="mobile_menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <nav id="header__nav" class="header__nav">
             <a class="header__nav__link" href="#">Home</a>
             <a class="header__nav__link" href="#whatisthis">What is this?</a>
             <a class="header__nav__link" href="#why">Why?</a>
@@ -171,5 +187,6 @@
             </ul>
         </div>
     </section>
+    <script src="./js/mobile-nav.js"></script>
 </body>
 </html>
